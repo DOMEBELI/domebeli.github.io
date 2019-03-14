@@ -1843,9 +1843,16 @@ body {
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
 .cid-rkJ2Rrdvoi {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 0px;
   background: linear-gradient(45deg, #2e2e2e, #2e2e2e);
+}
+.cid-rkJ2Rrdvoi .main {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+.cid-rkJ2Rrdvoi .main .mbr-section-btn {
+  text-align: right;
 }
 .cid-rkJ2Rrdvoi .btn {
   margin: 0 0 .5rem 0;
